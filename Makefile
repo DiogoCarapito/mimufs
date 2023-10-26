@@ -3,7 +3,6 @@ install:
 		pip install -r requirements.txt
 
 test:
-	#make test with pytest and coverage
 	pytest -vv --cov=main test_*.py
 
 format:
