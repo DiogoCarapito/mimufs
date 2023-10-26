@@ -20,7 +20,7 @@ LONG_DESCRIPTION = (here / "README.md").read_text(encoding="utf-8")
 setup(
     name="mimufs",
     version=VERSION,
-    description=DESCRIPTION
+    description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
     url="https://github.com/DiogoCarapito/mimufs",
