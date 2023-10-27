@@ -7,8 +7,6 @@ https://github.com/pypa/sampleproject
 
 from setuptools import setup, find_packages
 import pathlib
-import os
-import codecs
 
 here = pathlib.Path(__file__).parent.resolve()
 

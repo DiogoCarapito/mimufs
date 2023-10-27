@@ -3,4 +3,6 @@ pytest==7.4.2
 pytest-cov==4.1.0
 black==23.9.1
 
-twine
+setuptools >= 38.6.0
+wheel >= 0.31.0
+twine >= 1.11.0
