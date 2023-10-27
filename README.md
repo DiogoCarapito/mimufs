@@ -1,5 +1,6 @@
 # mimufs
-Mim@uf Business Intelligence Library for Portuguese Primary Care
+
+Mim@uf Business Intelligence Python Library for Portuguese Primary Care
 
 ## Cheatsheet
 
