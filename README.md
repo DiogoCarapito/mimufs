@@ -1,3 +1,5 @@
+[![Release](https://github.com/DiogoCarapito/mimufs/actions/workflows/release.yaml/badge.svg)](https://github.com/DiogoCarapito/mimufs/actions/workflows/release.yaml)
+
 # mimufs
 
 Mim@uf Business Intelligence Python Library for Portuguese Primary Care
