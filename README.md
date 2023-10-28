@@ -42,3 +42,7 @@ Legal
 - [https://choosealicense.com/](https://choosealicense.com/)
 
 
+Tutorials
+- [https://www.youtube.com/watch?v=tEFkHEKypLI](https://www.youtube.com/watch?v=tEFkHEKypLI)
+- [https://www.youtube.com/watch?v=WGsMydFFPMk](https://www.youtube.com/watch?v=WGsMydFFPMk)
+- [https://www.youtube.com/watch?v=5KEObONUkik](https://www.youtube.com/watch?v=5KEObONUkik)
