@@ -4,7 +4,7 @@ import pathlib
 here = pathlib.Path(__file__).parent.resolve()
 
 
-VERSION = "0.0.3"
+VERSION = "0.0.4"
 DESCRIPTION = "Mim@uf Business Intelligence Library for Portuguese Primary Care"
 LONG_DESCRIPTION = (here / "README.md").read_text(encoding="utf-8")
 
@@ -24,7 +24,9 @@ setup(
     keywords="business intelligence, primary care, data science, medicine",
     packages=find_packages(where="mimufs"),
     python_requires=">=3.7, <4",
-    install_requires=["pandas"],
+    install_requires=[
+        "pandas>=1.0.0"
+        ],
     project_urls={
         "Bug Reports": "https://github.com/DiogoCarapito/mimufs/issues",
         "Source": "https://github.com/DiogoCarapito/mimufs",
