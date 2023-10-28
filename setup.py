@@ -4,7 +4,7 @@ import pathlib
 here = pathlib.Path(__file__).parent.resolve()
 
 
-VERSION = "0.0.5"
+VERSION = "0.0.6"
 DESCRIPTION = "Mim@uf Business Intelligence Library for Portuguese Primary Care"
 LONG_DESCRIPTION = (here / "README.md").read_text(encoding="utf-8")
 
@@ -14,19 +14,27 @@ setup(
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
+
     url="https://github.com/DiogoCarapito/mimufs",
-    author="DiogoCarapito",
+    author="Diogo Carapito",
     author_email="diogo.carapito@gmail.com",
+    license="Apache License 2.0",
+    project_urls={
+        "Bug Reports": "https://github.com/DiogoCarapito/mimufs/issues",
+        "Source": "https://github.com/DiogoCarapito/mimufs",
+    },
     classifiers=[
         "Development Status :: 1 - Planning",
         "License :: OSI Approved :: Apache Software License",
     ],
     keywords="business intelligence, primary care, data science, medicine",
-    packages=find_packages(where="mimufs"),
-    python_requires=">=3.7, <4",
+    
+    python_requires=">=3.7, <3.12",
     install_requires=[],
-    project_urls={
-        "Bug Reports": "https://github.com/DiogoCarapito/mimufs/issues",
-        "Source": "https://github.com/DiogoCarapito/mimufs",
-    },
+    packages=setuptools.find_packages(),
+    include_package_data=True,
+
+    
+    
+    
 )
