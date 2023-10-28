@@ -1,4 +1,4 @@
-from setuptools import find_packages
+from setuptools import setup, find_packages
 import pathlib
 
 here = pathlib.Path(__file__).parent.resolve()
@@ -14,7 +14,6 @@ setup(
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
-
     url="https://github.com/DiogoCarapito/mimufs",
     author="Diogo Carapito",
     author_email="diogo.carapito@gmail.com",
@@ -28,13 +27,8 @@ setup(
         "License :: OSI Approved :: Apache Software License",
     ],
     keywords="business intelligence, primary care, data science, medicine",
-    
     python_requires=">=3.7, <3.12",
     install_requires=[],
-    packages=setuptools.find_packages(),
+    packages=find_packages(),
     include_package_data=True,
-
-    
-    
-    
 )
