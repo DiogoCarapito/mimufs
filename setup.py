@@ -24,9 +24,7 @@ setup(
     keywords="business intelligence, primary care, data science, medicine",
     packages=find_packages(where="mimufs"),
     python_requires=">=3.7, <4",
-    install_requires=[
-        "pandas>=1.0.0"
-        ],
+    install_requires=[],
     project_urls={
         "Bug Reports": "https://github.com/DiogoCarapito/mimufs/issues",
         "Source": "https://github.com/DiogoCarapito/mimufs",
