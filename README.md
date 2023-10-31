@@ -45,3 +45,7 @@ Youtube tutorials
 - [https://www.youtube.com/watch?v=v4bkJef4W94](https://www.youtube.com/watch?v=v4bkJef4W94)
 
 
+Tutorials
+- [https://www.youtube.com/watch?v=tEFkHEKypLI](https://www.youtube.com/watch?v=tEFkHEKypLI)
+- [https://www.youtube.com/watch?v=WGsMydFFPMk](https://www.youtube.com/watch?v=WGsMydFFPMk)
+- [https://www.youtube.com/watch?v=5KEObONUkik](https://www.youtube.com/watch?v=5KEObONUkik)
