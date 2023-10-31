@@ -41,4 +41,7 @@ Legal
 - [https://www.tldrlegal.com/](https://www.tldrlegal.com/)
 - [https://choosealicense.com/](https://choosealicense.com/)
 
+Youtube tutorials
+- [https://www.youtube.com/watch?v=v4bkJef4W94](https://www.youtube.com/watch?v=v4bkJef4W94)
+
 

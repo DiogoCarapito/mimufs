@@ -8,6 +8,9 @@ test:
 format:
 	black . *.py
 
+add:
+	git add .
+
 lint:
 	pylint --disable=R,C *.py 
 
