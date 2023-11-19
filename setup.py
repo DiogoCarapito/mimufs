@@ -4,7 +4,7 @@ import pathlib
 here = pathlib.Path(__file__).parent.resolve()
 
 
-VERSION = "0.0.12"
+VERSION = "0.0.13"
 DESCRIPTION = "Mim@uf Business Intelligence Library for Portuguese Primary Care"
 LONG_DESCRIPTION = (here / "README.md").read_text(encoding="utf-8")
 
