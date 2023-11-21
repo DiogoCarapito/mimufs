@@ -4,7 +4,7 @@ import pathlib
 here = pathlib.Path(__file__).parent.resolve()
 
 
-VERSION = "0.0.15"
+VERSION = "0.0.16"
 
 DESCRIPTION = "Mim@uf Business Intelligence Library for Portuguese Primary Care"
 
@@ -33,4 +33,5 @@ setup(
     install_requires=[],
     packages=find_packages(),
     include_package_data=True,
+    package_dir={"mimufs": "mimufs"},
 )
