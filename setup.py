@@ -4,7 +4,7 @@ import pathlib
 here = pathlib.Path(__file__).parent.resolve()
 
 
-VERSION = "0.0.14"
+VERSION = "0.0.15"
 
 DESCRIPTION = "Mim@uf Business Intelligence Library for Portuguese Primary Care"
 
