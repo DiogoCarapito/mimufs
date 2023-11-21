@@ -4,8 +4,10 @@ import pathlib
 here = pathlib.Path(__file__).parent.resolve()
 
 
-VERSION = "0.0.13"
+VERSION = "0.0.14"
+
 DESCRIPTION = "Mim@uf Business Intelligence Library for Portuguese Primary Care"
+
 LONG_DESCRIPTION = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
@@ -27,7 +29,7 @@ setup(
         "License :: OSI Approved :: Apache Software License",
     ],
     keywords="business intelligence, primary care, data science, medicine",
-    python_requires=">=3.7, <3.12",
+    python_requires=">=3.7,<3.12",
     install_requires=[],
     packages=find_packages(),
     include_package_data=True,
