@@ -1,1 +1,1 @@
-from .mimufs import hello
+from mimufs import hello
