@@ -32,6 +32,6 @@ setup(
     python_requires=">=3.7,<3.12",
     install_requires=[],
     #packages=find_packages(),
-    package_dir = {"": "src"}
+    package_dir = {"": "src"},
     include_package_data=True,
 )
