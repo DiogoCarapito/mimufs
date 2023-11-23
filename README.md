@@ -6,6 +6,17 @@ Mim@uf Business Intelligence Python Library for Portuguese Primary Care
 
 ## Cheatsheet
 
+### venv
+create venv
+```bash
+python3 -m venv .venv
+```
+
+activate venv
+```bash
+source .venv/bin/activate
+```
+
 ### Build package
 
 ```bash
