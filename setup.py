@@ -4,7 +4,7 @@ import pathlib
 here = pathlib.Path(__file__).parent.resolve()
 
 
-VERSION = "0.0.25"
+VERSION = "0.0.26"
 
 DESCRIPTION = "Mim@uf Business Intelligence Library for Portuguese Primary Care"
 
@@ -32,5 +32,6 @@ setup(
     python_requires=">=3.7,<3.12",
     install_requires=[],
     packages=find_packages(where="src"),
+    package_dir={"": "src"},
     include_package_data=True,
 )
