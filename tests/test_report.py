@@ -1,4 +1,4 @@
-from src.mimufs.mimufs import hello
+from mimufs.mimufs import hello
 
 
 def test_hello():
