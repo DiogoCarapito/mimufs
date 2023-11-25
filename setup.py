@@ -29,7 +29,7 @@ setup(
         "License :: OSI Approved :: Apache Software License",
         "Intended Audience :: Developers",
         "Intended Audience :: Healthcare Industry",
-        "Natural Language :: Portuguese ",
+        "Natural Language :: Portuguese",
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 3",
         "Topic :: Scientific/Engineering :: Information Analysis",
