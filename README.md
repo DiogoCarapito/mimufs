@@ -1,63 +1,55 @@
 [![Release](https://github.com/DiogoCarapito/mimufs/actions/workflows/release.yaml/badge.svg)](https://github.com/DiogoCarapito/mimufs/actions/workflows/release.yaml)
 
-# mimufs (tests on TestPyPI)
+# Mimufs
 
-This is a test project to learn how to create a python package and upload it to PyPI.
-The prodction package is at [https://pypi.org/project/mimufs/](https://pypi.org/project/mimufs/). 
+Mimufs is a python library with tools for data processing and analysis in Portuguese Prymary Health Care.
+It has a set of functions to facilitate data processing from MIM@UF and BI-CSP plataforms. It also has a set of functions to facilitate data analysis and visualization.
+
+## Installation
+To install mimufs, run this command in your project's terminal:
+```bash
+pip install mimufs
+```
+or in your jupyter notebook:
+```python
+!pip install mimufs
+```
+
+## Usage
+mimufs can be used in python scripts or in jupyter notebooks.
+```python
+import mimufs as mm
+```
+for specific data processing functions:
+```python
+from mimufs import processing
+```
+
+for specific data analysis functions:
+```python
+from mimufs import analysis
+```
+
+for specific visualization functions:
+```python
+from mimufs import visualization
+```
+
 
 ## Cheatsheet
-
 ### venv
 create venv
 ```bash
 python3 -m venv .venv
 ```
-
 activate venv
 ```bash
 source .venv/bin/activate
 ```
 
-### Build package
-
+### Build package and upload to PyPI
 ```bash
 python3 setup.py sdist bdist_wheel
-```
-
-### Use twine to upload to PyPI
-```bash
 twine check dist/*
-````
-```bash
 twine upload dist/*
 ```
-
-## Useful links
-
-PyPi
-- [https://pypi.org/](https://pypi.org/)
-- [https://test.pypi.org/](https://test.pypi.org)
-- [https://pypi.org/classifiers/](https://pypi.org/classifiers/)
-
-PyPA
-- [https://packaging.python.org/en/latest/overview/](https://packaging.python.org/en/latest/overview/)
-- [https://packaging.python.org/guides/distributing-packages-using-setuptools/](https://packaging.python.org/guides/distributing-packages-using-setuptools/)
-
-Sample Project
-- [https://github.com/pypa/sampleproject](https://github.com/pypa/sampleproject)
-
-Twine
-- [https://twine.readthedocs.io/en/stable/](https://twine.readthedocs.io/en/stable/)
-
-Legal
-- [https://www.tldrlegal.com/](https://www.tldrlegal.com/)
-- [https://choosealicense.com/](https://choosealicense.com/)
-
-Youtube tutorials
-- [https://www.youtube.com/watch?v=v4bkJef4W94](https://www.youtube.com/watch?v=v4bkJef4W94)
-
-
-Tutorials
-- [https://www.youtube.com/watch?v=tEFkHEKypLI](https://www.youtube.com/watch?v=tEFkHEKypLI)
-- [https://www.youtube.com/watch?v=WGsMydFFPMk](https://www.youtube.com/watch?v=WGsMydFFPMk)
-- [https://www.youtube.com/watch?v=5KEObONUkik](https://www.youtube.com/watch?v=5KEObONUkik)

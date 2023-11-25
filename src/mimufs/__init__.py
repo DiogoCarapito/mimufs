@@ -1,1 +1,1 @@
-from .module1 import hello
+from .analysis import func_1
