@@ -34,22 +34,3 @@ for specific visualization functions:
 ```python
 from mimufs import visualization
 ```
-
-
-## Cheatsheet
-### venv
-create venv
-```bash
-python3 -m venv .venv
-```
-activate venv
-```bash
-source .venv/bin/activate
-```
-
-### Build package and upload to PyPI
-```bash
-python3 setup.py sdist bdist_wheel
-twine check dist/*
-twine upload dist/*
-```
