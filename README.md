@@ -1,4 +1,5 @@
-[![Release](https://github.com/DiogoCarapito/mimufs/actions/workflows/release.yaml/badge.svg)](https://github.com/DiogoCarapito/mimufs/actions/workflows/release.yaml)
+[![CD/CI](https://github.com/DiogoCarapito/mimufs/actions/workflows/cdci.yaml/badge.svg)](https://github.com/DiogoCarapito/mimufs/actions/workflows/cdci.yaml)
+![PyPI Latest Release](https://img.shields.io/pypi/v/mimufs.svg)
 
 # Mimufs
 
