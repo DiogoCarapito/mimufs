@@ -1,3 +1,2 @@
-def func_1():
-    print("Func 1")
-    return "None"
+def hello():
+    return "Hello, World!"

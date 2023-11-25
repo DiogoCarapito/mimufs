@@ -1,8 +1,9 @@
 [![Release](https://github.com/DiogoCarapito/mimufs/actions/workflows/release.yaml/badge.svg)](https://github.com/DiogoCarapito/mimufs/actions/workflows/release.yaml)
 
-# mimufs
+# mimufs (tests on TestPyPI)
 
-Mim@uf Business Intelligence Python Library for Portuguese Primary Care
+This is a test project to learn how to create a python package and upload it to PyPI.
+The prodction package is at [https://pypi.org/project/mimufs/](https://pypi.org/project/mimufs/). 
 
 ## Cheatsheet
 
