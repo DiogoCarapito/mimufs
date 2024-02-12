@@ -4,9 +4,9 @@ import pathlib
 here = pathlib.Path(__file__).parent.resolve()
 
 
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 
-DESCRIPTION = "Mim@uf Business Intelligence Library for Portuguese Primary Care"
+DESCRIPTION = "Mim@uf and BI-CSP Library for Portuguese Primary Care"
 
 LONG_DESCRIPTION = (here / "README.md").read_text(encoding="utf-8")
 
@@ -43,6 +43,7 @@ setup(
     install_requires=[
         "pandas>=2.1.3",
         "numpy>=1.26.2",
+        "matplotlib>=3.8.2",
     ],
     packages=find_packages(where="src"),
     package_dir={"": "src"},

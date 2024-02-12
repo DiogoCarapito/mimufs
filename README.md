@@ -17,21 +17,14 @@ or in your jupyter notebook:
 ```
 
 ## Usage
-mimufs can be used in python scripts or in jupyter notebooks.
+
+
 ```python
-import mimufs as mm
-```
-for specific data processing functions:
-```python
-from mimufs import processing
+import pandas as pd
+from mimufs.processing import medico
+
+
+
+
 ```
 
-for specific data analysis functions:
-```python
-from mimufs import analysis
-```
-
-for specific visualization functions:
-```python
-from mimufs import visualization
-```

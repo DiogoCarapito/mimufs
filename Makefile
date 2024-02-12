@@ -12,6 +12,6 @@ add:
 	git add .
 
 lint:
-	pylint --disable=R,C *.py 
+	pylint --disable=R,C,W0105,W1401 tests/*.py src/mimufs/*.py
 
 all: install lint test format
