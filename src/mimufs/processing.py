@@ -8,7 +8,6 @@ import pandas as pd
 
 
 def medico(df: pd.DataFrame, column="Médico Familia") -> pd.DataFrame:
-    
     # convert the string to title case
     df[column] = df[column].str.title()
 

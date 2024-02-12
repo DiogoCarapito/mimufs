@@ -4,20 +4,22 @@ from src.mimufs.processing import medico
 
 
 def test_medico():
-    
-    df = pd.DataFrame({
-        "Médico Familia": [
-            "john doe",
-            "jOHN dOE",
-            "JOHN DOE",
-            "John  Doe",
-            "John Doe  ",
-            "John Doe      ",
-        ]
-    })
+    df = pd.DataFrame(
+        {
+            "Médico Familia": [
+                "john doe",
+                "jOHN dOE",
+                "JOHN DOE",
+                "John  Doe",
+                "John Doe  ",
+                "John Doe      ",
+            ]
+        }
+    )
     # create a dataframe with the same length as df filled with "John Doe" in all cells
-    df_expected = pd.DataFrame({"Médico Familia":["John Doe" for _ in range(df.shape[0])]})
-
+    df_expected = pd.DataFrame(
+        {"Médico Familia": ["John Doe" for _ in range(df.shape[0])]}
+    )
 
     assert medico(df, column="Médico Familia").equals(df_expected)
 

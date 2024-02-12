@@ -18,13 +18,13 @@ or in your jupyter notebook:
 
 ## Usage
 
+### medico()
 
 ```python
 import pandas as pd
 from mimufs.processing import medico
 
-
-
+df = medico(df, column="Médico Familia")
 
 ```
 
