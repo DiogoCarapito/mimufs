@@ -4,7 +4,7 @@ import pathlib
 here = pathlib.Path(__file__).parent.resolve()
 
 
-VERSION = "0.1.1"
+VERSION = "0.1.2"
 
 DESCRIPTION = "Mim@uf and BI-CSP Library for Portuguese Primary Care"
 
@@ -25,7 +25,7 @@ setup(
         "Source": "https://github.com/DiogoCarapito/mimufs",
     },
     classifiers=[
-        "Development Status :: 2 - Pre-Alpha",
+        "Development Status :: 3 - Alpha",
         "License :: OSI Approved :: Apache Software License",
         "Intended Audience :: Developers",
         "Intended Audience :: Healthcare Industry",
@@ -38,8 +38,8 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Topic :: Utilities",
     ],
-    keywords="business intelligence, primary care, data science, medicine",
-    python_requires=">=3.7,<3.12",
+    keywords="business intelligence, primary care, data science, medicine, healthcare, visualization, pandas, numpy, matplotlib",
+    python_requires=">=3.7,<=3.12",
     install_requires=[
         "pandas>=2.1.3",
         "numpy>=1.26.2",
