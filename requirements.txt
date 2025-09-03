@@ -5,3 +5,16 @@ pytest==7.4.2
 pytest-cov==4.1.0
 black==23.9.1
 #ipython==8.17.2
+
+requests
+
+PySide6==6.9.2
+
+Nuitka==2.7.13
+
+pyautogui
+pyscreeze
+Pillow
+
+pandas
+opencv-python

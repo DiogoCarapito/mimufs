@@ -1,0 +1,5 @@
+id,action,element,option,delay
+0,click,test_btn,,
+1,check,mimuf_top_bar,,
+2,click,test_btn,,
+3,click,01_btn,,

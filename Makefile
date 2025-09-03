@@ -3,13 +3,13 @@ install:
 		pip install -r requirements.txt
 
 test:
-	pytest -vv --cov=main --cov=utils tests/test_*.py
+	pytest -vv --cov=src tests/test_*.py
 
 format:
-	black . *.py
+	black src/ src/*.py
 
 lint:
-	pylint --disable=R,C *.py utils/*.py tests/*.py
+	pylint --disable=R,C src/*.py src/utils/*.py src/ui/*.py src/pages/*.py src/autogui/*.py tests/*.py
 
 #container-lint:
 #	docker run -rm -i hadolint/hadolint < Dockerfile
@@ -19,8 +19,5 @@ refactor:
 
 deploy:
 	echo "deploy not implemented"
-
-build:
-	pyinstaller --name App --onefile --windowed --icon=assets/logo.ico main.py
 
 all: install lint test format
