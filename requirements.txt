@@ -10,10 +10,11 @@ requests
 
 PySide6==6.9.2
 
+pyinstaller
 Nuitka==2.7.13
 
 pyautogui
-pyscreeze
+#pyscreeze
 Pillow
 
 pandas
